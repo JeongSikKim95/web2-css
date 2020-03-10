@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid{
+        border:5px solid pink;
+        display:grid;
+        grid-template-columns: 150px 1fr;
+        /* 2fr 1fr하면 2:1 비율 */
+      }
+      div {
+        border:5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  그리드 : 어떠한 의미도 존재하지 않고 오로지
+                  디자인을 위해서 사용하는 태그(div, span)
+          div : block (전체)
+          span : inline (부분)
+    -->
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>ARTICLE</div>
+    </div>
+  </body>
+</html>
